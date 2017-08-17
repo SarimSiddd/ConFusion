@@ -19,5 +19,21 @@
                 }
 
             });    
+
+           $("#ReserveButton").click(function(){
+
+           $("#ReserveModal").modal('toggle');
+
+
+
+           });
+
+            $("#loginButton").click(function(){
+
+           $("#loginModal").modal('toggle');
+
+
+
+           });
      });
 
